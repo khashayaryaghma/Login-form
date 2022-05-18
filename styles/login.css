@@ -17,9 +17,6 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    /* opacity: 50%; */
-    backdrop-filter: blur(15px);
-    
 }
 .container form{
     width: 30%;
