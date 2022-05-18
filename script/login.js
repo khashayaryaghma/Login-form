@@ -4,6 +4,7 @@ const emailError = document.getElementById("email-error");
 const messageError = document.getElementById("message-error");
 const submitError = document.getElementById("submit-error");
 const button = document.querySelector("button");
+const icons = document.querySelector("section")
 
 function validateName() {
     let name = document.getElementById("contact-name").value;
@@ -83,3 +84,52 @@ function validateForm() {
         return false;
     }
 }
+for(let i=1 ;i <=20;i++){
+icons.innerHTML += `<div class="row">
+                <div>
+                    <i class="fa fa-bath" aria-hidden="true"></i>
+                    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+                    <i class="fa fa-thermometer-quarter" aria-hidden="true"></i>
+                    <i class="fa fa-anchor" aria-hidden="true"></i>
+                    <i class="fa fa-university" aria-hidden="true"></i>
+                    <i class="fa fa-bicycle" aria-hidden="true"></i>
+                    <i class="fa fa-car" aria-hidden="true"></i>
+                    <i class="fa fa-bluetooth" aria-hidden="true"></i>
+                    <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                    <i class="fa fa-child" aria-hidden="true"></i>
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    <i class="fa fa-glass" aria-hidden="true"></i>
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <i class="fa fa-paw" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-tree" aria-hidden="true"></i>
+                    <i class="fa fa-grav" aria-hidden="true"></i>
+                </div>
+
+                <div>
+                    <i class="fa fa-bath" aria-hidden="true"></i>
+                    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+                    <i class="fa fa-thermometer-quarter" aria-hidden="true"></i>
+                    <i class="fa fa-anchor" aria-hidden="true"></i>
+                    <i class="fa fa-university" aria-hidden="true"></i>
+                    <i class="fa fa-bicycle" aria-hidden="true"></i>
+                    <i class="fa fa-car" aria-hidden="true"></i>
+                    <i class="fa fa-bluetooth" aria-hidden="true"></i>
+                    <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                    <i class="fa fa-child" aria-hidden="true"></i>
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    <i class="fa fa-glass" aria-hidden="true"></i>
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <i class="fa fa-paw" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-tree" aria-hidden="true"></i>
+                    <i class="fa fa-grav" aria-hidden="true"></i>
+                </div>
+            </div>`
+        }
